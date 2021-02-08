@@ -1,10 +1,12 @@
 import React from 'react';
+import { auth, provider } from "./firebase";
 import "./Login.css";
-import { Button } from "@material-ui/core"
+import { Button } from "@material-ui/core";
 
 function Login() {
     const signIn = () => {
         //google login
+        auth.signInWithPopup(provider).catch((error) => alert(error.message));
     };
 
     return (
@@ -16,9 +18,9 @@ function Login() {
                 />
             </div>
 
-            <Button onClick="{signIn}">Sign In</Button>
+            <Button onClick={signIn}>Sign In</Button>
         </div>
-    )
+    );
 }
 
 export default Login
