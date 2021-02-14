@@ -51,8 +51,8 @@ Discord clone was created for learning purposes. Google authentication login thr
 
 #### Installation
 
-`git clone https://github.com/trilamanila/discord`
-`npm install`
+- `git clone https://github.com/trilamanila/discord`
+- `npm install`
 
 #### API Reference
 
