@@ -18,7 +18,7 @@
 
 ## Description
 
-Discord clone was created for learning purposes. Google authentication login through Firebase with unique ID for avatar icon and messages. Database stored with cloud Firestore for messages and chat groups. Real time live demo deployed with Firebase. Redux used for user login and logout and app channel ids and channel names.
+Discord clone was created for learning purposes. Google authentication login through Firebase with unique ID for avatar icon and messages. Backend and database stored with cloud Firestore for messages and chat groups. Real time live demo deployed with Firebase. Redux used for user login and logout and app channel ids and channel names.
 
 #### Technologies
 
@@ -31,17 +31,17 @@ Discord clone was created for learning purposes. Google authentication login thr
 
 #### Dependencies
 
-"@material-ui/core": "^4.11.3",
-"@material-ui/icons": "^4.11.2",
-"@reduxjs/toolkit": "^1.1.0",
-"@testing-library/jest-dom": "^4.2.4",
-"@testing-library/react": "^9.3.2",
-"@testing-library/user-event": "^7.1.2",
-"firebase": "^8.2.6",
-"react": "^17.0.1",
-"react-dom": "^17.0.1",
-"react-redux": "^7.1.3",
-"react-scripts": "4.0.1"
+- "@material-ui/core": "^4.11.3",
+- "@material-ui/icons": "^4.11.2",
+- "@reduxjs/toolkit": "^1.1.0",
+- "@testing-library/jest-dom": "^4.2.4",
+- "@testing-library/react": "^9.3.2",
+- "@testing-library/user-event": "^7.1.2",
+- "firebase": "^8.2.6",
+- "react": "^17.0.1",
+- "react-dom": "^17.0.1",
+- "react-redux": "^7.1.3",
+- "react-scripts": "4.0.1"
 
 [Back To The Top](#discord-clone)
 
@@ -51,8 +51,8 @@ Discord clone was created for learning purposes. Google authentication login thr
 
 #### Installation
 
-`git clone https://github.com/trilamanila/discord
-npm install`
+`git clone https://github.com/trilamanila/discord`
+`npm install`
 
 #### API Reference
 
