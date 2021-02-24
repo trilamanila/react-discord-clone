@@ -18,7 +18,7 @@
 
 ## Description
 
-Discord clone was created for learning purposes. Google authentication login through Firebase with unique ID for avatar icon and messages. Backend and database stored with cloud Firestore for messages and chat groups. Real time live demo deployed with Firebase. Redux used for user login and logout and app channel ids and channel names.
+Discord clone was created for learning purposes. Google authentication login was through Firebase with unique ID for avatar icon and messages. Backend and database stored with cloud Firestore for messages and chat groups. Real time live demo deployed with Firebase. Redux used for user login and logout and app channel ids and channel names. BEM naming convention, Flexbox, and Material UI was used for styling.
 
 #### Technologies
 
@@ -27,7 +27,6 @@ Discord clone was created for learning purposes. Google authentication login thr
 - Firebase
 - CSS
 - HTML
-- Node
 
 #### Dependencies
 
@@ -52,6 +51,7 @@ Discord clone was created for learning purposes. Google authentication login thr
 #### Installation
 
 - `git clone https://github.com/trilamanila/discord`
+- `cd discord`
 - `npm install`
 
 #### API Reference
@@ -62,22 +62,25 @@ const db = firebaseApp.firestore();
 const auth = firebase.auth();
 const provider = new firebase.auth.GoogleAuthProvider();
 ```
+
 [Back To The Top](#discord-clone)
 
 ---
 
 ## References
+
 [Back To The Top](#discord-clone)
 
 - Twitter - [@trilamanila](https://twitter.com/trilamanila)
 - Website - [Trilamanila](https://trilamanila.com)
+
 ---
 
 ## License
 
 MIT License
 
-Copyright (c) [2021] [Joncin Picol]
+Copyright (c) [2021][joncin picol]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
